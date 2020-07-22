@@ -6,4 +6,4 @@
 #iManufacturer           1 SparkFun
 #iProduct                2 SFE 9DOF-D21
 SUBSYSTEMS=="usb", KERNEL=="ttyACM*" ATTRS{idVendor}=="1b4f", ATTRS{idProduct}=="9d0f", \
-    SYMLINK+="imu%n"
+    SYMLINK+="imu"
