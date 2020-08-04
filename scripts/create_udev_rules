@@ -41,7 +41,7 @@ echo "This script copies a udev rule to /etc/udev/rules.d/ to facilitate"
 echo "bringing up the SparkFun Razor IMU M0 usb connection as /dev/imuN."
 echo ""
 
-sudo cp `rospack find razor_imu_m0_driver`/razor_imu_m0_driver.rules /etc/udev/rules.d/60-razor_imu_m0_driver.rules
+sudo cp ../razor_imu_m0_driver.rules /etc/udev/rules.d/60-razor_imu_m0_driver.rules
 
 
 echo ""
